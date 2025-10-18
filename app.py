@@ -27,6 +27,14 @@ import threading
 from pathlib import Path
 import time
 
+# app.py
+import streamlit as st
+
+st.title("InsightForge Dashboard")
+st.write("Welcome to InsightForge!")
+
+# Your main app logic goes here
+
 # # Optional Ragas imports
 # try:
 #     from ragas import evaluate
